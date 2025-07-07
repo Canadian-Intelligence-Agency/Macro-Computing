@@ -6,7 +6,7 @@ Macro-Computing explores computing systems built using unconventional, large-sca
 
 - [Overview](#overview)
 - [Whitepapers](#whitepapers)
-  - [Soil-Based XOR System for Macro-Scale Computing Exploration](#soil-based-xor-system-for-macro-scale-computing-exploration)
+  - [Soil-Based Logic Gates and Processor-Like System](#soil-based-logic-gates-and-processor-like-system)
   - [Metal Sheet-Based Logic Gates and Processor-Like System](#metal-sheet-based-logic-gates-and-processor-like-system)
 - [Purpose and Applications](#purpose-and-applications)
 - [Getting Started](#getting-started)
@@ -15,13 +15,13 @@ Macro-Computing explores computing systems built using unconventional, large-sca
 
 ## Overview
 
-Macro-Computing focuses on creating functional computational systems at a human-visible scale, where components like logic gates are constructed from materials like soil or metal sheets. These systems aim to replicate fundamental computing operations (e.g., AND, OR, XOR) and combine them into processor-like architectures. By using non-traditional materials, Macro-Computing offers insights into the principles of computation, material science, and sustainable technology.
+Macro-Computing focuses on creating functional computational systems at a human-visible scale, where components like logic gates are constructed from materials like soil or metal sheets. These systems aim to replicate fundamental computing operations (e.g., AND, OR, XOR, NOT) and combine them into processor-like architectures. By using non-traditional materials, Macro-Computing offers insights into the principles of computation, material science, and sustainable technology.
 
 ## Whitepapers
 
-### Soil-Based XOR System for Macro-Scale Computing Exploration
+### Soil-Based Logic Gates and Processor-Like System
 
-This paper outlines the construction of a soil-based XOR logic system, utilizing the electrical properties of soil to perform computational operations. It explores how natural materials can be engineered to create functional logic gates and discusses potential applications in low-cost, environmentally integrated computing.  
+This paper presents a soil-based computing system that implements fundamental logic gates (XOR, AND, OR, NOT) using layered soils with electrical inputs in small pottery pots. By leveraging soil conductivity, the system mimics digital logic operations and can be synchronized to form a rudimentary processor-like system. It explores applications in education, environmental integration, and unconventional computing research.  
 [Read the paper](SOIL-BASED-LOGIC-GATES-AND-PROCESSOR.md)
 
 ### Metal Sheet-Based Logic Gates and Processor-Like System
@@ -41,7 +41,9 @@ The Macro-Computing project serves as both a research platform and an educationa
 
 To explore the Macro-Computing systems:
 
-1. Review the two papers linked in the [Whitepapers](#whitepapers) section for detailed methodologies and findings.
+1. Review the two papers linked in the [Whitepapers](#whitepapers) section for detailed methodologies and findings:
+   - [Soil-Based Logic Gates and Processor-Like System](SOIL-BASED-LOGIC-GATES-AND-PROCESSOR.md)
+   - [Metal Sheet-Based Logic Gates and Processor-Like System](METAL-SHEET-LOGIC-GATES-AND-PROCESSOR.md)
 2. Experiment with the described setups using locally sourced soil or metal sheets.
 3. Contribute to the repository by sharing your own experiments or improvements.
 
