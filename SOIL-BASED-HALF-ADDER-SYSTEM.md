@@ -11,6 +11,11 @@ This diagram shows how multiple gate pots are synchronized using a microcontroll
 
 Controlling the electrodes in the soil-based logic gate system involves applying specific voltages to represent binary inputs (0 or 1) and measuring the output conductivity to determine the logic result. Below is a detailed explanation of how to control the electrodes for the XOR, AND, OR, and NOT gates. The process includes setting up the power supply, applying inputs, and managing outputs, with considerations for synchronization in a processor-like system.
 
+## Implementatrion
+
+- XOR Pot: Sum (A ⊕ B). Soil mix: 60% Soil A (dry sandy, 0.01 S/m), 40% Soil B (clay with salt/graphite, 0.1 S/m). Threshold: >0.05 S/m = 1.
+- AND Pot: Carry (A ∧ B). Mix: 30% A, 70% B. Threshold: >0.08 S/m = 1.
+
 ## General Overview of Electrode Control
 
 - Purpose: Electrodes deliver electrical inputs to the soil layers (Input A, Input B, or single Input for NOT gate) and measure the resulting conductivity in the output soil layer to determine the binary output (0 or 1).
