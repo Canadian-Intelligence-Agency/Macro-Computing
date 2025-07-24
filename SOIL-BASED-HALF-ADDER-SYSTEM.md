@@ -1,6 +1,6 @@
 # Soil Based Half Adder Processor
 
-## Example ESP32 Assembly
+## Example ESP32 Assembly Code
 [Soil Based Half Adder Xtensa Assembly Code for ESP32](https://github.com/Canadian-Intelligence-Agency/Macro-Computing/blob/main/SoilLogicGatesESP.S)
 
 ## Soil Based Half Adder Processor ESP32 Example
