@@ -8,6 +8,7 @@ Macro-Computing explores computing systems built using unconventional, large-sca
 - [Whitepapers](#whitepapers)
   - [Soil-Based Logic Gates and Processor-Like System](#soil-based-logic-gates-and-processor-like-system)
   - [Metal Sheet-Based Logic Gates and Processor-Like System](#metal-sheet-based-logic-gates-and-processor-like-system)
+- [Soil Based Half-Adder Processor Example](https://github.com/Canadian-Intelligence-Agency/Macro-Computing/blob/main/SOIL-BASED-HALF-ADDER-SYSTEM.md)
 - [Purpose and Applications](#purpose-and-applications)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
