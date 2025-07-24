@@ -1,6 +1,6 @@
 ; Xtensa Assembly for ESP32: Soil-Based Logic Gates Control
 ; Equivalent to Arduino C++ code for XOR/AND half-adder on ESP32
-; Uses GPIO4 (XOR_INPUT_A), GPIO5 (XOR_INPUT_B), GPIO6 (AND_INPUT_A), GPIO7 (AND_INPUT_B) as outputs
+; Uses GPIO4 (XOR_INPUT_A), GPIO5 (XOR_INPUT_B), GPIO18 (AND_INPUT_A), GPIO19 (AND_INPUT_B) as outputs
 ; Uses GPIO34 (ADC1_CH6) for XOR_OUTPUT, GPIO35 (ADC1_CH7) for AND_OUTPUT
 ; UART0 for serial output at 9600 baud
 ; Assumes 80MHz APB clock for UART baud rate calculation
@@ -9,8 +9,8 @@
 ; Register definitions (bit positions)
 .equ XOR_INPUT_A_BIT, 4      ; GPIO4
 .equ XOR_INPUT_B_BIT, 5      ; GPIO5
-.equ AND_INPUT_A_BIT, 6      ; GPIO6
-.equ AND_INPUT_B_BIT, 7      ; GPIO7
+.equ AND_INPUT_A_BIT, 18     ; GPIO18
+.equ AND_INPUT_B_BIT, 19     ; GPIO19
 
 ; GPIO register addresses (from ESP32 TRM)
 .equ GPIO_OUT_W1TS_REG, 0x3FF44008   ; Set bits for GPIO 0-31
@@ -91,7 +91,7 @@ wait_adc_xor:
     j wait_adc_xor
 adc_xor_done:
     extui a5, a4, 0, 12  ; Extract 12-bit value
-    movi a6, 2048        ; Threshold 2048 (adjusted from 512 for 12-bit)
+    movi a6, 2048        ; Threshold 2048 (adjusted for 12-bit ADC)
     blt a5, a6, xor_zero
     movi a7, 1           ; xorResult = 1
     j xor_done
@@ -109,7 +109,7 @@ wait_adc_and:
     j wait_adc_and
 adc_and_done:
     extui a5, a4, 0, 12  ; Extract 12-bit value
-    movi a6, 2456        ; Threshold 2456 (adjusted from 614 for 12-bit)
+    movi a6, 2456        ; Threshold 2456 (adjusted for 12-bit ADC)
     blt a5, a6, and_zero
     movi a8, 1           ; andResult = 1
     j and_done
