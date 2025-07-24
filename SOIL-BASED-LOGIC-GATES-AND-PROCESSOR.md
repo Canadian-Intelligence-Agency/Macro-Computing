@@ -123,6 +123,9 @@ Produces output 1 when both inputs are 1 (A = B = 1), 0 otherwise.
    - Troubleshoot as XOR.
 7. **Maintain**: Same as XOR.
 
+![Soil Based AND Gate](https://imagedelivery.net/OVmDB0hD28LMRX9l7h69mw/976b0f01-5598-43c7-da70-cd639bb32300/public)
+
+
 ### OR Gate
 Produces output 1 when at least one input is 1 (A=1 or B=1), 0 otherwise.
 
