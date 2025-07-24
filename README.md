@@ -72,6 +72,7 @@ To explore the Macro-Computing systems:
    - [Metal Sheet-Based Logic Gates and Processor-Like System](METAL-SHEET-LOGIC-GATES-AND-PROCESSOR.md)
 2. Experiment with the described setups using locally sourced soil, recycled metal sheets, or other materials like compost, water-based electrolytes, plastics, or biochar.
 3. Contribute to the repository by sharing your own experiments or improvements, particularly in novel material applications or environmental sensor networks.
+4. 4. Review the [Soil Based Half-adder Processor Example](SOIL-BASED-HALF-ADDER-SYSTEM.md)
 
 ## Contributing
 
