@@ -97,6 +97,8 @@ Produces output 1 when exactly one input is 1 (A ≠ B), 0 otherwise.
    - Troubleshoot electrodes, compaction, or mix.
 7. **Maintain**:
    - Store indoors, check moisture weekly, refresh soils every few months, recalibrate sensor.
+  
+![Soil Based XOR Gate](https://imagedelivery.net/OVmDB0hD28LMRX9l7h69mw/f98b5a46-a5f2-414d-7b2d-2901ddf78000/public)
 
 ### AND Gate
 Produces output 1 when both inputs are 1 (A = B = 1), 0 otherwise.
