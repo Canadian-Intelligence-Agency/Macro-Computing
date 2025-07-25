@@ -98,6 +98,8 @@ Produces output 1 when exactly one input is 1 (A ≠ B), 0 otherwise.
 7. **Maintain**:
    - Store indoors, check moisture weekly, refresh soils every few months, recalibrate sensor.
   
+XOR Pot: Sum (A ⊕ B). Soil mix: 60% Soil A (dry sandy, 0.01 S/m), 40% Soil B (clay with salt/graphite, 0.1 S/m). Threshold: >0.05 S/m = 1.
+  
 ![Soil Based XOR Gate](https://imagedelivery.net/OVmDB0hD28LMRX9l7h69mw/9d0d168a-849d-4b58-fe3d-059c47b01c00/public)
 
 ### AND Gate
@@ -122,6 +124,8 @@ Produces output 1 when both inputs are 1 (A = B = 1), 0 otherwise.
    - Verify: 00→0, 01→0, 10→0, 11→1.
    - Troubleshoot as XOR.
 7. **Maintain**: Same as XOR.
+
+AND Pot: Carry (A ∧ B). Mix: 30% A, 70% B. Threshold: >0.08 S/m = 1.
 
 ![Soil Based AND Gate](https://imagedelivery.net/OVmDB0hD28LMRX9l7h69mw/976b0f01-5598-43c7-da70-cd639bb32300/public)
 
